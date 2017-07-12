@@ -1,7 +1,7 @@
 import { h, app } from 'hyperapp'
 import container from '../'
 
-// this can be in its own file
+// this can be in its own file and imported using import Counter from './counter.jsx'
 const Counter = container({
   state: {
     parent: {
